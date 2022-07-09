@@ -149,10 +149,10 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
-        <img srcset="images/red-panda-1200.jpg, 1200w
-                     images/firefox-addons-600.jpg, 600w"
-             sizes="(max-width: 600px) 600px
-                    (min-width: 601px) 1200px">
+        <picture>
+          <source media="(max-width: 600px)" srcset="images/red-panda-1200.jpg">
+          <img src="images/red-panda-600.jpg" alt="a red panda">
+        </picture>
       </div>
 
     </main>
